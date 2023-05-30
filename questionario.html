@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/modeloBase.css">
+    <link rel="stylesheet" type="text/css" href="CSS/questionario.css">
+    <title>InfoFy - Questionário</title>
+</head>
+<body>
+
+    <img src="IMG e SOM/IMG/InfoFy_logo.png" class="logo" alt="InfoFy_logo">
+
+    <div class="topnav">
+        <a href="contacto.html">Contacto</a>
+        <a class="active" href="questionario.html">Questionário</a>
+        <a href="perfil.html">Perfil</a>
+        <a href="main.html">Home</a>
+    </div>
+
+    <h1>Questionário</h1>
+
+    <div class="Box">
+    <form onsubmit="submitQuiz()">
+        <h2>1ª Questão: De que géneros de música gostas?</h2>
+        <div class="checkboxes">
+        <input type="checkbox" name="genres" value="Rock"> Rock<br>
+        <input type="checkbox" name="genres" value="Pop"> Pop<br>
+        <input type="checkbox" name="genres" value="Hip-hop"> Hip Hop<br>
+        <input type="checkbox" name="genres" value="Electrónica"> Electrónica<br>
+        <input type="checkbox" name="genres" value="Clássia"> Clássica<br>
+        <input type="checkbox" name="genres" value="Jazz"> Jazz<br>
+        <input type="checkbox" name="genres" value="Country"> Country<br>
+        <input type="checkbox" name="genres" value="Metal"> Metal<br>
+        </div><br>
+
+        <h2>2ª Questão: Quão regularmente ouves música?</h2>
+        <input type="radio" name="frequency" value="Diariamente"> Diariamente<br>
+        <input type="radio" name="frequency" value="Semanalmente"> Semanalmente<br>
+        <input type="radio" name="frequency" value="Mensalmente"> Mensalmente<br>
+        <input type="radio" name="frequency" value="Ocasionalmente"> Ocasionalmente<br>
+        <br>
+
+        <h2>3ª Questão: Qual é a tua data de nascimento?</h2>
+        <input type="date" name="dob"><br><br><br><br>
+
+        <input type="submit" value="Submeter" class="btn">
+    </form>
+    </div>
+
+    <span class="icon" onclick="voltarLogin()">
+        <ion-icon name="exit-outline"></ion-icon>
+    </span>
+
+    <script type="text/JavaScript" src="JavaScript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
