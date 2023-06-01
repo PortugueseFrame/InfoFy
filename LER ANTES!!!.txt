@@ -1,0 +1,16 @@
+Olá,
+
+O meu projeto abre-se pela página "login.html" para uma melhor experiência. Segue em atenção alguns pontos importantes do projeto:
+
+ - Na página de login as funções: "Lembrar-me" e "Esqueceu a sua palavra-passe?" não possuem qualquer interação com o código e são
+meramente ilustrativas;
+
+ - Para tocar os áudios na página inicial é necessário clicar nas imagens;
+
+ - O Projeto começou a ser desenvolvido no browser Firefox mas por motivos técnicos à última da hora passou para o Chrome o que levou
+a uma desformatação dos controlos do áudio perdendo assim o seu estilo (encontra-se na mesma na página CSS "mainStyle.css" se quiser verificar);
+
+ - O motivo desta troca deve-se ao facto de o Firefox não permitir o uso da função localStorage do JavaScript ao contrário do Chrome;
+
+ - A Data de nascimento é coletada e guardada no questionário ainda que nunca seja usada (possíveis implementações em projetos futuros);
+

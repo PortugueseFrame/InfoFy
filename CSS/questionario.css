@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.Box {
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    background: transparent;
+    border: 2px solid rgba(16, 16, 16, .5);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transition: height 0.2s ease, margin 0.2s ease;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%, -50%);
+}
+
+.checkboxes {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkboxes input[type="checkbox"] {
+    margin-left: 10px;
+    accent-color: rgb(16, 16, 16);
+}
+
+input[type="radio"]{
+    accent-color: rgb(16, 16, 16);
+}
+
+input[type="date"]{
+    background-color: rgb(29, 29, 29);
+    color: white;
+    border-radius: 15px;
+}
+
+.btn {
+    color: white;
+    width: 100%;
+    height: 45px;
+    background: rgb(29, 29, 29);
+    border: 2px solid rgba(16, 16, 16, .5);
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+}

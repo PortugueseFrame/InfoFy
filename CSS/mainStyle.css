@@ -1,0 +1,129 @@
+.titulos {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: top 2.5s ease;
+}
+
+.titulos.top {
+    top: 0;
+    transform: translate(-50%, 0%);
+}
+
+.quadrados {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.quadrado {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(16, 16, 16);
+    border-radius: 5px;
+    margin: 5px;
+    position: relative;
+}
+
+.quadrado img {
+    margin: 5px;
+    padding: 10px;
+    margin-bottom: -15px;
+    cursor: pointer;
+}
+
+.quadrado p {
+    text-align: left;
+    width: calc(100% - 30px);
+    margin: 0;
+    margin-bottom: -3px;
+    padding: 15px;
+}
+
+.quadrado:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+fieldset {
+    font-size: larger;
+    width: 77%;
+    margin-left: 30px;
+    border: 2px solid rgba(16, 16, 16, 3.5);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.recomendacoes {
+    margin-top: 100vh;
+    transition: margin-top 2.5s ease;
+}
+
+.recomendacoes.top {
+    margin-top: 12rem;
+}
+
+.descPlay {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 30px);
+    margin: 0;
+    padding: 15px;
+}
+
+.faq p, h2, h3{
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.faq h3 {
+    margin-bottom: 40px;
+}
+
+.faq {
+    background-color: rgb(16, 16, 16);
+    width: 90%;
+    border-radius: 15px;
+}
+
+.faq ul li {
+    margin-right: 35px;
+}
+
+.faq p{
+    font-size: larger;
+}
+
+iframe {
+    border-radius: 15px;
+    margin-bottom: 55px;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#musicPlayer {
+    position: fixed;
+    top: 100px;
+    right: 280px;
+    width: 300px;
+    transform: translateX(80%);
+    border: 2px solid rgba(16, 16, 16, 3.5);
+    border-radius: 15px;
+    z-index: 9999;
+}

@@ -1,0 +1,38 @@
+.divSobreMim {
+    text-align: center;
+}
+
+.divContacto {
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: large;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 4rem;
+}
+
+a {
+    color: rgb(0, 102, 204);
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 4rem;
+    position: relative;
+}
+
+.video-caption {
+    text-align: center;
+    margin-top: 10px;
+}
+
+video {
+    width: 512px;
+    height: auto;
+}

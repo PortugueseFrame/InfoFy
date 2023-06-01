@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/login.css">
+    <title>InfoFy - Login</title>
+</head>
+<body>
+    
+    <img src="IMG e SOM/IMG/InfoFy_logo.png" class="logo" alt="InfoFy_logo">
+    
+    <div class="Box">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" id="emailLogin" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="passwordLogin" required>
+                    <label>Password</label>
+                </div>
+                <div class="lembrar">
+                    <label><input type="checkbox">Lembrar-me</label>
+                    <a href="#">Esqueceu-se da Password?</a>
+                </div>
+                <button type="submit" class="btn" onclick="Login()">Login</button>
+                <div class="login-register">
+                    <p>Criar uma conta? <a href="#" class="link-register">Registe-se!</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Registo</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" id="username" required>
+                    <label>Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="email" id="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" id="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="lembrar">
+                    <label><input type="checkbox">Aceito os termos e condições*</label>
+                </div>
+                <button type="submit" class="btn" onclick="registarConta()">Registar</button>
+                <div class="login-register">
+                    <p>Já tem uma conta? <a href="#" class="link-login">Faça Login!</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
