@@ -24,3 +24,5 @@ window.addEventListener('DOMContentLoaded', function() {
     musicPlayer.src = url;
     musicPlayer.play();
 }
+
+//! isto precisa de ser alterado
