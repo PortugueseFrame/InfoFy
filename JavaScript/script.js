@@ -19,12 +19,14 @@ linkLogin.addEventListener('click', () => {
 
 function voltarLogin() {
   window.location.href = "login.html"
+  //! Precisa de limpar as variáveis locais
 }
 
 const contas = [];
 
 // Função para registar uma nova conta
-// Função para registar uma nova conta
+//! Refazer para guardar contas localmente(?)
+//? Base de dados futureamente?
 function registarConta() {
   // Recebe os valores das InputBoxes
   const usernameInput = document.getElementById('username');
