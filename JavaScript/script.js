@@ -67,9 +67,9 @@ function registarConta() {
   localStorage.setItem('email123', email);
 
   // Função para verificar o username
-  function isUsernameTaken(username) {
+function isUsernameTaken(username) {
   return contas.some(conta => conta.username === username);
-  }
+}
 
 // Função para verificar o email
 function isEmailTaken(email) {
@@ -78,6 +78,7 @@ function isEmailTaken(email) {
   
   alert('Conta registada com sucesso!');
 }
+
 // Função para monitorizar o login
 function Login() {
   // Recebe os dados das InputBoxes
